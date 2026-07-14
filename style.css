@@ -1,0 +1,37 @@
+body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+        .stopwatch {
+            text-align: center;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .display {
+            font-size: 3rem; 
+            font-weight: bold;
+            margin-bottom: 20px;
+            font-family: monospace;
+            color: #333;
+        }
+        button {
+            font-size: 1rem;
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .start { background-color: #4CAF50; color: rgb(255, 255, 255); }
+        .stop { background-color: #f44336; color: white; }
+        .reset { background-color: #008CBA; color: white; }
+        button:hover { opacity: 0.9; }
